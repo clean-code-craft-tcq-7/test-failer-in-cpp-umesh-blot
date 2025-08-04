@@ -15,3 +15,18 @@ TEST(ColorMap, Print) {
 TEST(WeatherReport, Report) {
     testWeatherReport();
 }
+
+void testTshirtSize() {
+    std::cout << "\nTshirt size test\n";
+    assert(size(37) == 'S');
+    assert(size(40) == 'M');
+    assert(size(43) == 'L');
+    std::cout << "All is well (maybe!)\n";
+}
+
+void testPrintColorMap() {
+    std::cout << "\nPrint color map test\n"; 
+    int result = printColorMap();
+    assert(result == 25);
+    std::cout << "All is well (maybe!)\n";
+}
