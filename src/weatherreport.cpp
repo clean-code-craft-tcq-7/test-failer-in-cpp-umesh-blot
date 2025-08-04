@@ -78,4 +78,3 @@ void testWeatherReport() {
     WeatherSpace::TestRainy();
     WeatherSpace::TestHighPrecipitation();
     cout << "All is well (maybe)\n";
-}
