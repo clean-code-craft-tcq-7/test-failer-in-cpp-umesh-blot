@@ -1,4 +1,5 @@
 #include "gtest/gtest.h"
+#include "main_header.h"
 
 void testTshirtSize();
 void testPrintColorMap();
