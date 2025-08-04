@@ -74,4 +74,9 @@ namespace WeatherSpace
     }
 }
 
-
+void testWeatherReport() {
+    cout << "\nWeather report test\n";
+    WeatherSpace::TestRainy();
+    WeatherSpace::TestHighPrecipitation();
+    cout << "All is well (maybe)\n";
+}
